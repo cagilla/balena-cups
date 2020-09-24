@@ -12,7 +12,8 @@ RUN install_packages \
     hplip \
     hplip-data \
     libcups2-dev \
-    build-essential 
+    build-essential \
+    vim
 
 # Add support for Samsung printers via Splix
 WORKDIR /usr/src/app
